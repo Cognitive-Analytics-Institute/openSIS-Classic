@@ -716,7 +716,7 @@ if (!$_SESSION['STAFF_ID'] && !$_SESSION['STUDENT_ID'] && $_REQUEST['modfunc'] !
     echo '<head>';
     echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">';
     echo '<TITLE>' . Config('TITLE') . '</TITLE>';
-    echo '<link rel="shortcut icon" href="favicon.ico">';
+    echo '<link rel="shortcut icon" href="favicon.ico?v=roots1">';
     echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
     echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
     echo '<noscript><META http-equiv=REFRESH content="0;url=EnableJavascript.php" /></noscript>';

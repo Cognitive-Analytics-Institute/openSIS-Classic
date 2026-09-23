@@ -558,7 +558,7 @@ if ($_SESSION['PageAccess']!= 'stu_pass' && $_SESSION['PageAccess']!= 'stf_pass'
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Roots Student Information System</title>
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico?v=roots1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="styles/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -626,7 +626,7 @@ if ($_SESSION['PageAccess']!= 'stu_pass' && $_SESSION['PageAccess']!= 'stf_pass'
 
                     <div class="panel-heading">
                         <div class="logo">
-                            <img src="assets/images/opensis_logo.png" alt="Roots" />
+                            <img src="assets/images/opensis_logo.png?v=roots1" alt="Roots" />
                         </div>                    
                         <h3>Forgot Password</h3>
                     </div>

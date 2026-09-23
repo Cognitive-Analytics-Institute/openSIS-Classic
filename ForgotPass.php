@@ -296,7 +296,7 @@ if(langDirection()=='rtl') { $dir="rtl"; }else{ $dir="ltr"; }
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Roots Student Information System</title>
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico?v=roots1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
         <link href="assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
@@ -384,7 +384,7 @@ if(langDirection()=='rtl') { $dir="rtl"; }else{ $dir="ltr"; }
 
                     <div class="panel-heading">
                         <div class="logo">
-                            <img src="assets/images/opensis_logo.png" alt="Roots" />
+                            <img src="assets/images/opensis_logo.png?v=roots1" alt="Roots" />
                         </div>
                     </div>
 
