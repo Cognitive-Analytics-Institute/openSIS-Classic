@@ -75,6 +75,7 @@ if (!defined('CONFIG_INC')) {
         'Library' => true,
         'messaging' => true,
         'tools' => true,
+        'admissions' => true,
     );
 
     // If session isn't started, start it.

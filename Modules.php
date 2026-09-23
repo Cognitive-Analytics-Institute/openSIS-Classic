@@ -614,7 +614,8 @@ $menu_icons = array(
     "tools" => "icon-hammer-wrench",
     "library" => "icon-book3",
     "billing" => "icon-calculator2",
-    "discipline" => "icon-hammer2"
+    "discipline" => "icon-hammer2",
+    "admissions" => "icon-user-plus"
 );
 
 //echo "<li><a href='javascript:void(0)' onmouseup='check_content(\"Ajax.php?modname=miscellaneous/Portal.php\");' onmousedown='document.getElementById(\"header\").innerHTML = \"Home\";document.getElementById(\"cframe\").src = \"Bottom.php?modcat=home\"'><i class=\"icon-home4\"></i><span>" . "Home" . "</span></a></li>";
