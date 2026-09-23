@@ -24,7 +24,7 @@ define("_backToUserList", "Back to User List");
 define("_deselect", "DESELECT");
 define("_missingAttendanceDataListCreated", "Missing attendance data list created");
 define("_openSisIsAProductOfOpenSolutionsForEducationInc", "openSIS is a product of Open Solutions for Education, Inc");
-define("_footerText", "openSIS is a product of Open Solutions for Education, Inc. (<a href=\"http://www.os4ed.com\">OS4ED</a>) and is licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\" target=\"_blank\">GPL license</a>.");
+define("_footerText", "");
 //SCHOOL SETUP
 define("_cannotDeleteBecauseStudentsAreEnrolledInThisCalendar", "Cannot delete because students are enrolled in this calendar");
 define("_cannotUploadFileOnlyJpgJpegPngGifFilesAreAllowed", "Cannot upload file. Only jpg, jpeg, png, gif files are allowed");
