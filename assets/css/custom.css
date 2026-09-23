@@ -1,5 +1,30 @@
+:root {
+    --roots-sidebar-bg: #1c1917;
+    --roots-sidebar-fg: #fafaf9;
+    --roots-sidebar-muted: #a8a29e;
+    --roots-sidebar-border: #292524;
+    --roots-logo-mark: #fb923c;
+    --roots-logo-text: #fafaf9;
+
+    --roots-page-bg: #f5f5f4;
+    --roots-surface: #ffffff;
+    --roots-border: #e7e5e4;
+    --roots-text: #0c0a09;
+    --roots-text-muted: #78716c;
+
+    --roots-accent: #ea580c;
+    --roots-accent-hover: #c2410c;
+    --roots-accent-active: #9a3412;
+    --roots-accent-soft: #ffedd5;
+    --roots-accent-text: #9a3412;
+    --roots-link: #c2410c;
+    --roots-track: #e7e5e4;
+
+    --roots-success: #15803d;
+}
+
 body {
-    background: #e7e9ef;
+    background: var(--roots-page-bg);
 }
 
 .inline-block {
@@ -565,4 +590,147 @@ ul[id*="select2-period-"] {
     .text-lg-right { text-align: right; }
     .text-lg-center { text-align: center; }
     .text-lg-justify { text-align: justify; }
+}
+
+/* ==========================================================================
+   Roots theme (4a Stone + Ember)
+   ========================================================================== */
+
+/* Sidebar branding */
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--roots-sidebar-border);
+}
+.sidebar-brand .sidebar-brand-mark {
+    color: var(--roots-logo-mark);
+    flex-shrink: 0;
+}
+.sidebar-brand .sidebar-brand-text {
+    color: var(--roots-logo-text);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+/* Sidebar — dark stone */
+.sidebar.sidebar-main .sidebar-content {
+    background-color: var(--roots-sidebar-bg);
+    box-shadow: none;
+}
+.sidebar.sidebar-main .sidebar-category {
+    border-color: var(--roots-sidebar-border);
+}
+.sidebar.sidebar-main .sidebar-user-material {
+    background-color: var(--roots-sidebar-bg);
+    border-bottom: 1px solid var(--roots-sidebar-border);
+}
+.sidebar.sidebar-main .sidebar-user-material-content h6,
+.sidebar.sidebar-main .sidebar-user-material-content .text-size-small {
+    color: var(--roots-sidebar-fg);
+}
+.sidebar.sidebar-main .sidebar-user-material-menu > a {
+    color: var(--roots-sidebar-muted);
+}
+.sidebar.sidebar-main .navigation li a {
+    color: var(--roots-sidebar-muted);
+}
+.sidebar.sidebar-main .navigation li a:hover,
+.sidebar.sidebar-main .navigation li a:focus {
+    background-color: rgba(251, 146, 60, 0.08);
+    color: var(--roots-sidebar-fg);
+}
+.sidebar.sidebar-main .navigation li.active > a,
+.sidebar.sidebar-main .navigation li.active > a:hover,
+.sidebar.sidebar-main .navigation li.active > a:focus,
+.sidebar.sidebar-main .navigation li.current-submenu > a,
+.sidebar.sidebar-main .navigation li.current-submenu > a:hover,
+.sidebar.sidebar-main .navigation li.current-submenu > a:focus {
+    background-color: rgba(251, 146, 60, 0.14);
+    color: var(--roots-logo-mark);
+    box-shadow: inset 3px 0 0 var(--roots-logo-mark);
+}
+.sidebar.sidebar-main .navigation li a > i {
+    color: inherit;
+}
+.sidebar.sidebar-main .navigation ul {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.sidebar.sidebar-main .navigation-wrapper,
+.sidebar.sidebar-main .navigation .navigation-divider {
+    border-color: var(--roots-sidebar-border);
+}
+.sidebar.sidebar-main .navigation .navigation-header {
+    color: var(--roots-sidebar-muted);
+}
+
+/* Primary brand color -> Ember orange */
+.btn-primary {
+    color: #fff;
+    background-color: var(--roots-accent);
+    border-color: var(--roots-accent);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: var(--roots-accent-hover);
+    border-color: var(--roots-accent-hover);
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: var(--roots-accent-active);
+    border-color: var(--roots-accent-active);
+}
+
+.bg-primary {
+    background-color: var(--roots-accent) !important;
+    border-color: var(--roots-accent-hover) !important;
+    color: #fff !important;
+}
+.text-primary {
+    color: var(--roots-accent) !important;
+}
+.border-primary {
+    border-color: var(--roots-accent) !important;
+}
+
+a {
+    color: var(--roots-link);
+}
+a:hover,
+a:focus {
+    color: var(--roots-accent-active);
+}
+
+.form-control:focus {
+    border-bottom-color: var(--roots-accent) !important;
+    box-shadow: 0 1px 0 var(--roots-accent) !important;
+}
+
+.breadcrumb-line:not([class*="bg-"]) {
+    background-color: var(--roots-sidebar-bg);
+}
+
+.nav-pills.nav-pills-primary li.active a {
+    background: var(--roots-accent);
+}
+
+.checkbox.checkbox-switch.switch-primary label > input:checked + span,
+.checkbox-inline.checkbox-switch.switch-primary > input:checked + span {
+    background-color: var(--roots-accent);
+    border-color: var(--roots-accent);
+    box-shadow: var(--roots-accent) 0px 0px 0px 8px inset;
+}
+
+/* Surfaces */
+.panel,
+.panel-default {
+    border-color: var(--roots-border);
+}
+.panel-heading {
+    border-color: var(--roots-border);
 }

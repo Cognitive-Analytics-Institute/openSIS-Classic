@@ -1986,3 +1986,12 @@ html[dir="rtl"] .checkbox.checkbox-switch label span {
         color: #1E88E5;
     }
 }
+
+/* Roots theme (4a Stone + Ember) */
+.login a {
+    color: #c2410c;
+}
+.login a:hover,
+.login a:focus {
+    color: #9a3412;
+}

@@ -553,6 +553,16 @@ echo '</div>
                     <div class="sidebar-fixed">
                         <div class="sidebar-content">
 
+                            <div class="sidebar-brand">
+                                <svg class="sidebar-brand-mark" width="22" height="22" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+                                    <rect x="4" y="5" width="24" height="4" rx="2"></rect>
+                                    <rect x="7" y="11" width="4" height="10" rx="2"></rect>
+                                    <rect x="14" y="11" width="4" height="16" rx="2"></rect>
+                                    <rect x="21" y="11" width="4" height="7" rx="2"></rect>
+                                </svg>
+                                <span class="sidebar-brand-text">roots</span>
+                            </div>
+
                             <!-- Main navigation -->
                             <div class="sidebar-category sidebar-category-visible">
                                 <div class="sidebar-user-material">
