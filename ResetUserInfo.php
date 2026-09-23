@@ -557,7 +557,7 @@ if ($_SESSION['PageAccess']!= 'stu_pass' && $_SESSION['PageAccess']!= 'stf_pass'
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>openSIS Student Information System</title>
+        <title>Roots Student Information System</title>
         <link rel="shortcut icon" href="favicon.ico">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="styles/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -626,7 +626,7 @@ if ($_SESSION['PageAccess']!= 'stu_pass' && $_SESSION['PageAccess']!= 'stf_pass'
 
                     <div class="panel-heading">
                         <div class="logo">
-                            <img src="assets/images/opensis_logo.png" alt="openSIS" />
+                            <img src="assets/images/opensis_logo.png" alt="Roots" />
                         </div>                    
                         <h3>Forgot Password</h3>
                     </div>

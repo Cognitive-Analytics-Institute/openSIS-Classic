@@ -34,7 +34,7 @@ session_start();
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>openSIS Installer</title>
+        <title>Roots Installer</title>
         <link href="../assets/css/icons/fontawesome/styles.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/bootstrap-datepicker/css/bootstrap-datepicker3.css">
@@ -67,9 +67,9 @@ session_start();
                 <div class="panel">
                     <div class="panel-heading">
                         <div class="logo">
-                            <img src="assets/images/opensis_logo.png" alt="openSIS">
+                            <img src="assets/images/opensis_logo.png" alt="Roots">
                         </div>
-                        <h3>openSIS Installation - School Information</h3>
+                        <h3>Roots Installation - School Information</h3>
                     </div>
                     <div class="panel-body">
                         <div class="installation-steps-wrapper">
@@ -84,7 +84,7 @@ session_start();
                                     <li>Ready to Go!</li>
                                 </ul>
                                 <!--<h4 class="no-margin">Installation Instructions</h4>
-                                <p>Installer has successfully created the database for openSIS application.</p>
+                                <p>Installer has successfully created the database for the Roots application.</p>
                                 <p>Once you enter the school name, begin and end dates, it will create a default school in the system.</p>
                                 <p>If you install it with sample data, then a sample school will be installed with data. You can learn from the setup and operation of the sample school to configure your own school.</p>-->
                             </div>

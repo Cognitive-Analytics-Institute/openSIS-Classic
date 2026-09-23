@@ -63,7 +63,7 @@ if (isset($_SESSION['mod']) && $_SESSION['mod']== 'upgrade') {
                 <meta charset="utf-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>openSIS Installer</title>
+                <title>Roots Installer</title>
                 <link href="../assets/css/icons/fontawesome/styles.min.css" rel="stylesheet">
                 <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
                 <link rel="stylesheet" href="assets/css/installer.css?v=' . rand(000, 999) . '" type="text/css" />
@@ -75,9 +75,9 @@ if (isset($_SESSION['mod']) && $_SESSION['mod']== 'upgrade') {
                         <div class="panel">
                         <div class="panel-heading">
                             <div class="logo">
-                                <img src="assets/images/opensis_logo.png" alt="openSIS">
+                                <img src="assets/images/opensis_logo.png" alt="Roots">
                             </div>
-                            <h3>openSIS Installation - Complete</h3>
+                            <h3>Roots Installation - Complete</h3>
                         </div>
                         <div class="panel-body">
                             <div class="installation-steps-wrapper">
@@ -93,11 +93,11 @@ if (isset($_SESSION['mod']) && $_SESSION['mod']== 'upgrade') {
                                     </ul>
                                 </div>
                                 <div class="installation-steps">
-                                    <div class="text-center"><img src="assets/images/check-clipart-animated.gif" width="80" /><h3 class="text-success">Congratulations! You have successfully upgraded openSIS</h3></div>
+                                    <div class="text-center"><img src="assets/images/check-clipart-animated.gif" width="80" /><h3 class="text-success">Congratulations! You have successfully upgraded Roots</h3></div>
                                         
                                     <div class="padding-20 p-t-0 class="text-center"">
                                         <p class="text-center">' . $display_text . '</p>
-                                        <div class="text-center"><br/><a href="../index.php?modfunc=logout&ins=comp" class="btn btn-success btn-lg" target="_parent">Proceed to openSIS Login</a></div>
+                                        <div class="text-center"><br/><a href="../index.php?modfunc=logout&ins=comp" class="btn btn-success btn-lg" target="_parent">Proceed to Roots Login</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -151,16 +151,16 @@ You have also installed the sample school data. You can select your school or th
 
 You need to follow the instructions in the administrator manual for setting up the school properly. The manual is located in the docs folder.";
     } else if ($_SESSION['school_installed'] == 'sample') {
-        $display_text = "You have installed openSIS with a sample school data. Use this school to get familiar with the system and as a guide for creating your own school.  You can also follow the instructions in the administrator manual for setting up and configuring a new school. The manual is located in the docs folder.";
+        $display_text = "You have installed Roots with a sample school data. Use this school to get familiar with the system and as a guide for creating your own school.  You can also follow the instructions in the administrator manual for setting up and configuring a new school. The manual is located in the docs folder.";
     }
-    $display_text = "You have installed openSIS with a sample school data. Use this school to get familiar with the system and as a guide for creating your own school.  You can also follow the instructions in the administrator manual for setting up and configuring a new school. The manual is located in the docs folder.";
+    $display_text = "You have installed Roots with a sample school data. Use this school to get familiar with the system and as a guide for creating your own school.  You can also follow the instructions in the administrator manual for setting up and configuring a new school. The manual is located in the docs folder.";
     echo '<!DOCTYPE html>
         <html lang="en">
             <head>
                 <meta charset="utf-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>openSIS Installer</title>
+                <title>Roots Installer</title>
                 <link href="../assets/css/icons/fontawesome/styles.min.css" rel="stylesheet">
                 <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
                 <link rel="stylesheet" href="assets/css/installer.css?v=' . rand(000, 999) . '" type="text/css" />
@@ -172,9 +172,9 @@ You need to follow the instructions in the administrator manual for setting up t
                         <div class="panel"">
                         <div class="panel-heading">                            
                             <div class="logo">
-                                <img src="assets/images/opensis_logo.png" alt="openSIS">
+                                <img src="assets/images/opensis_logo.png" alt="Roots">
                             </div>
-                            <h3>openSIS Installation - Complete</h3>
+                            <h3>Roots Installation - Complete</h3>
                         </div>
                         <div class="panel-body">
                             <div class="installation-steps-wrapper">
@@ -191,7 +191,7 @@ You need to follow the instructions in the administrator manual for setting up t
                                 </div>
                                 <div class="installation-steps">
                                     <div class="padding-20 class="text-center"">
-                                        <div class="text-center"><img src="assets/images/check-clipart-animated.gif" width="80" /><h3 class="text-success">Congratulations! You have successfully installed openSIS</h3></div>
+                                        <div class="text-center"><img src="assets/images/check-clipart-animated.gif" width="80" /><h3 class="text-success">Congratulations! You have successfully installed Roots</h3></div>
                                         <div class="row" style="padding: 10px 0 0;">
                                             <div class="col-md-12 text-center">
                                                 <!--<p style="padding: 0 30px 10px;">' . $display_text . '</p>
@@ -199,7 +199,7 @@ You need to follow the instructions in the administrator manual for setting up t
                                             </div>
                                         </div>
 
-                                        <div class="text-center" style="padding: 10px 0;"><a href="../index.php?modfunc=logout&ins=comp" class="btn btn-success btn-lg" target="_parent">Proceed to openSIS Login</a></div>
+                                        <div class="text-center" style="padding: 10px 0;"><a href="../index.php?modfunc=logout&ins=comp" class="btn btn-success btn-lg" target="_parent">Proceed to Roots Login</a></div>
                                     </div>
                                 </div>
                             </div>

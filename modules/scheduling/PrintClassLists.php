@@ -64,7 +64,7 @@ if ($_REQUEST['modfunc'] == 'save') {
                 echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
                 echo "<tr><td width=105>" . DrawLogo() . "</td>";
                 echo "<td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">" . GetSchool(UserSchool()) . "<div style=\"font-size:12px;\">"._teacherClassList."</div></td>";
-                echo "<td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br />"._poweredBy." openSIS</td></tr>";
+                echo "<td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br />"._poweredBy." Roots</td></tr>";
                 echo "<tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr>";
                 echo "</table>";
                 echo '</td></tr>';

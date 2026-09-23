@@ -63,7 +63,7 @@ if (!$_REQUEST['search_modfunc'] || $_openSIS['modules_search']) {
         $__DBINC_NO_SQLSHOW = true;
         $handle = PDFStart();
         echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
-        echo "<tr><td width=105>" . DrawLogo() . "</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">" . GetSchool(UserSchool()) . "<div style=\"font-size:12px;\">" . _studentPrintRequest . "</div></td><td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br \>" . _poweredByOpenSis . " openSIS</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
+        echo "<tr><td width=105>" . DrawLogo() . "</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">" . GetSchool(UserSchool()) . "<div style=\"font-size:12px;\">" . _studentPrintRequest . "</div></td><td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br \>" . _poweredByOpenSis . "</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
         foreach ($RET as $student_id => $courses) {
             if ($_REQUEST['mailing_labels'] == 'Y') {
                 foreach ($courses as $address) {

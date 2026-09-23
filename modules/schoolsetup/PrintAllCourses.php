@@ -38,7 +38,7 @@ if (clean_param($_REQUEST['modfunc'], PARAM_ALPHAMOD) == 'print_all' && $_REQUES
     if (count($sql_subject_ret)) {
         foreach ($sql_subject_ret as $subject) {
             echo "<table width=100%  style=\" font-family:Arial; font-size:12px;\" >";
-            echo "<tr><td width=105>" . DrawLogo() . "</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">" . GetSchool(UserSchool()) . "<div style=\"font-size:12px;\">" . _allCourses . "</div></td><td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br />" . _poweredBy . " openSIS</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
+            echo "<tr><td width=105>" . DrawLogo() . "</td><td  style=\"font-size:15px; font-weight:bold; padding-top:20px;\">" . GetSchool(UserSchool()) . "<div style=\"font-size:12px;\">" . _allCourses . "</div></td><td align=right style=\"padding-top:20px;\">" . ProperDate(DBDate()) . "<br />" . _poweredBy . " Roots</td></tr><tr><td colspan=3 style=\"border-top:1px solid #333;\">&nbsp;</td></tr></table>";
             echo '<table border="0" width="100%" align="center"><tr><td><font face=verdana size=-1><b>' . $subject['TITLE'] . '</b></font></td></tr><tr>';
 
             $sql_course = 'SELECT COURSE_ID,TITLE FROM  courses WHERE
